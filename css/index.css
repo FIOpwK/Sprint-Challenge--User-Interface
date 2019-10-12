@@ -69,12 +69,28 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+
+header nav a {
+    color: black;
+    text-decoration: none;
 }
 
 /* top container image 'jumbo' */
 .container .top-content-img {
-    margin: 0 auto;
+    margin: 25px 0;
     padding: 1%;
+    width: 100%;
 }
 
 .top-content {
@@ -92,26 +108,37 @@ p {
 }
 
 /* Navigation */
-nav {
+header nav {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid;
-    width: 90%;
-    margin: 0 auto;
+    width: 74%;
+   
 }
 
+
+/* About Page */
+
+.about-content {
+    width: 100%;
+}
 /* Images */
 .logo {
     display: inline;
 }
 
 /* About content */
-.about-content {
+.container .about-content {
+    
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
-    margin: 0 auto;
+    justify-content: space-between;
+    width: 48%;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid;
+    align-items: start;
+    padding: 1%;
 }
 
 .middle-content {
@@ -260,6 +287,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Buttons */
+button {
+    border-radius: 10px;
+    background: white;
+    height: 40px;
+    margin: 0 auto;
+    width: 33%;
+    border: 2px solid;
+    font-size: 18px;
 }
 
 .bottom-content {
