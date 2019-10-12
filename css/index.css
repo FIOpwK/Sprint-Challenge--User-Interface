@@ -71,6 +71,12 @@ p {
     margin: 0 auto;
 }
 
+/* top container image 'jumbo' */
+.container .top-content-img {
+    margin: 0 auto;
+    padding: 1%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +89,29 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Images */
+.logo {
+    display: inline;
+}
+
+/* About content */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 56%;
+    margin: 0 auto;
 }
 
 .middle-content {
