@@ -78,7 +78,7 @@ p {
     width: 800px;
     margin: 0 auto;
   
-    /* display: flex; */
+     /*display: flex;*/
     flex-wrap: wrap;
 
 }
@@ -176,9 +176,9 @@ h4 {
     width: 48%;
     height: auto;
     flex-direction: column;
-    justify-content: start;
+    /*justify-content: start;*/
     /* border: 1px solid; */
-    align-items: start;
+    /*align-items: start;*/
     padding: 1%;
     margin: 8px;
 }
@@ -192,6 +192,11 @@ h4 {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
+/*.boxes:hover {*/
+/*    transform: rotateZ(0deg);*/
+/*    transition: all ease-out 2.0s;*/
+/*}*/
 
 .middle-content .boxes {
     display: flex;
@@ -336,7 +341,7 @@ button {
     border-radius: 10px;
     background: white;
     height: 40px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     width: 33%;
     border: 2px solid;
     font-size: 18px;
@@ -374,3 +379,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Keyframes for Animation*/
+/*@keyframes slidein {*/
+/*    from {*/
+/*        transform: rotateX(0);*/
+/*    }*/
+
+/*    to {*/
+/*        transform: rotateY(160deg);*/
+/*    }*/
+/*}*/
+
