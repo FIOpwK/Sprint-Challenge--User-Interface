@@ -393,3 +393,20 @@ footer nav a {
 /*    }*/
 /*}*/
 
+@media (max-width: 500px) {
+    header nav a {
+        color: red;
+        padding-bottom: 2%;
+        border-bottom: 1px solid;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
