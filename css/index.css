@@ -67,20 +67,20 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    /*width: 800px;*/
+    /*margin: 0 auto;*/
     /* border: 1px solid; */
     display: flex;
     flex-wrap: wrap;
 }
 
-.container-home {
-    width: 800px;
+.container-home .container {
+    /*width: 800px;*/
     margin: 0 auto;
-  
+    padding: 1%;
+    width: 100%;
      /*display: flex;*/
     flex-wrap: wrap;
-
 }
 
 /* Header */
@@ -101,7 +101,7 @@ header nav a {
 }
 
 /* top container image 'jumbo' */
-.container-home .top-content-img {
+.top-content-img {
     margin-bottom: 20px;
     padding: 1%;
     width: 100%;
