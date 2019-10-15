@@ -152,10 +152,10 @@ header nav {
     margin-bottom: 20px;
 }
 
-.container .para {
+ .para {
     margin-bottom: 20px;
     padding: 20px;
-    border-bottom: 1px dotted;
+    border-bottom: 1px dashed;
 }
 
 h4 {
@@ -169,9 +169,10 @@ h4 {
 
 /* About content */
 
-.wrapper {
+/* .wrapper {
     width: 100%;
-}
+} */
+
 .container .about-content {
     
     display: flex;
@@ -190,6 +191,10 @@ h4 {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 100%; */
+    
 }
 
 .middle-content h2 {
@@ -202,16 +207,19 @@ h4 {
 /*    transition: all ease-out 2.0s;*/
 /*}*/
 
+
 .middle-content .boxes {
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly
+    
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    background-color: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -220,23 +228,12 @@ h4 {
 }
 
 /* Boxes */
-.middle-content .boxes .box1 {
-    background-color: teal;
-    width: 12.5%;
-    height: 100px;
-    /* background: black; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.middle-content .boxes .box2 {
+.box2 {
     background-color: gold;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -244,11 +241,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box3 {
+.box3 {
     background-color: cadetblue;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -256,11 +253,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box4 {
+.box4 {
     background-color: coral;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -268,11 +265,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box5 {
+.box5 {
     background-color: crimson;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -280,11 +277,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box6 {
+.box6 {
     background-color: forestgreen;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -292,11 +289,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box7 {
+.box7 {
     background-color: darkorchid;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -304,11 +301,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box8 {
+.box8 {
     background-color: hotpink;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -316,11 +313,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box9 {
+.box9 {
     background-color: indigo;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -328,11 +325,11 @@ h4 {
     justify-content: center;
 }
 
-.middle-content .boxes .box10 {
+.box10 {
     background-color: dodgerblue;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
